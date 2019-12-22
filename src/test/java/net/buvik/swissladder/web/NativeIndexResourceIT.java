@@ -1,4 +1,4 @@
-package net.buvik.swissladder.web.;
+package net.buvik.swissladder.web;
 
 import io.quarkus.test.junit.NativeImageTest;
 

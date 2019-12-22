@@ -1,4 +1,4 @@
-package net.buvik.swissladder.web.;
+package net.buvik.swissladder.web;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -15,7 +15,7 @@ public class IndexResourceTest {
           .when().get("/")
           .then()
              .statusCode(200)
-             .body(is("hello"));
+             .body(is("Swiss ladder"));
     }
 
 }

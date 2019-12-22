@@ -16,7 +16,8 @@
     <quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
     <quarkus.platform.version>1.0.1.Final</quarkus.platform.version>
-    <surefire-plugin.version>2.22.1</surefire-plugin.version>
+    <surefire-plugin.version>2.22.2</surefire-plugin.version>
+    <failsafe-plugin.version>2.22.2</failsafe-plugin.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -98,7 +99,7 @@
         <plugins>
           <plugin>
             <artifactId>maven-failsafe-plugin</artifactId>
-            <version>${surefire-plugin.version}</version>
+            <version>${failsafe-plugin.version}</version>
             <executions>
               <execution>
                 <goals>
